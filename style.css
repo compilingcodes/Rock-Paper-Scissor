@@ -16,16 +16,24 @@
     color: white;
  }
 
+
  .turn img{
     width: 150px;
     height: 150px;
+
+ }
+ 
+ #turns .turn img:hover {
+  background-color: black;
+opacity: .8;
+cursor: pointer;
  }
 
  #turns{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4vw;
+    padding-top: 5vw;
     gap: 5vw;
  }
 
